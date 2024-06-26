@@ -1,0 +1,873 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37453F222C0923DA008C08F2 /* AnyCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37453F212C0923DA008C08F2 /* AnyCategory.swift */; };
+		37453F262C0E14AA008C08F2 /* expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37453F252C0E14AA008C08F2 /* expense.swift */; };
+		374696512C0779E40097342C /* NeedsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374696502C0779E40097342C /* NeedsGridView.swift */; };
+		374696532C077CA40097342C /* CardViewTitles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374696522C077CA40097342C /* CardViewTitles.swift */; };
+		37570EE62C0F83A100C36D6B /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37570EE52C0F83A100C36D6B /* XDismissButton.swift */; };
+		37811FC32C1134BC005BB5AE /* WantsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37811FC22C1134BC005BB5AE /* WantsViewModel.swift */; };
+		37811FC52C115549005BB5AE /* SavingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37811FC42C115549005BB5AE /* SavingsViewModel.swift */; };
+		37811FC72C1155B5005BB5AE /* NeedsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37811FC62C1155B5005BB5AE /* NeedsViewModel.swift */; };
+		37811FC92C128C52005BB5AE /* needsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37811FC82C128C52005BB5AE /* needsDetailView.swift */; };
+		37811FCE2C128DAE005BB5AE /* wantsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37811FCD2C128DAE005BB5AE /* wantsDetailView.swift */; };
+		37811FD02C128DDB005BB5AE /* savingsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37811FCF2C128DDB005BB5AE /* savingsDetailView.swift */; };
+		37811FD22C153386005BB5AE /* ListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37811FD12C153386005BB5AE /* ListViewCell.swift */; };
+		37811FD42C17B0F4005BB5AE /* ListViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37811FD32C17B0F4005BB5AE /* ListViewCellModel.swift */; };
+		37841CD52BFD0D8A0093BF3F /* userData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37841CD42BFD0D8A0093BF3F /* userData.swift */; };
+		37841CD72BFD393F0093BF3F /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37841CD62BFD393F0093BF3F /* user.swift */; };
+		37841CD92BFD39680093BF3F /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37841CD82BFD39680093BF3F /* AccountViewModel.swift */; };
+		37841CDD2BFD6E450093BF3F /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37841CDC2BFD6E450093BF3F /* ProgressBar.swift */; };
+		37841CDF2BFEB9DE0093BF3F /* DailyBudget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37841CDE2BFEB9DE0093BF3F /* DailyBudget.swift */; };
+		37841CE12C02B0820093BF3F /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37841CE02C02B0820093BF3F /* GraphView.swift */; };
+		37841CE32C02B6820093BF3F /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37841CE22C02B6820093BF3F /* File.swift */; };
+		37841CE72C02B6DD0093BF3F /* BudgetRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37841CE62C02B6DD0093BF3F /* BudgetRules.swift */; };
+		37841CF12C02C5760093BF3F /* AddNewExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37841CF02C02C5760093BF3F /* AddNewExpense.swift */; };
+		37841CF42C050CD20093BF3F /* WantsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37841CF32C050CD20093BF3F /* WantsView.swift */; };
+		37841CF72C050EC70093BF3F /* SavingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37841CF62C050EC70093BF3F /* SavingsView.swift */; };
+		37841CF92C050EE30093BF3F /* NeedsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37841CF82C050EE30093BF3F /* NeedsView.swift */; };
+		37A4ADCE2BFBD11F008C388A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37A4ADCD2BFBD11F008C388A /* GoogleService-Info.plist */; };
+		37A4ADD12BFBD1B4008C388A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A4ADD02BFBD1B4008C388A /* LoginViewModel.swift */; };
+		37A4ADD42BFBD54D008C388A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A4ADD32BFBD54D008C388A /* AppDelegate.swift */; };
+		37A4ADD62BFBD7B9008C388A /* +View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A4ADD52BFBD7B9008C388A /* +View.swift */; };
+		37A4ADD82BFBE27D008C388A /* FIrebaseAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A4ADD72BFBE27D008C388A /* FIrebaseAuth.swift */; };
+		37A4ADDB2BFCD928008C388A /* registerUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A4ADDA2BFCD928008C388A /* registerUser.swift */; };
+		37C990252BF7BE0C00010768 /* budjiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C990242BF7BE0C00010768 /* budjiApp.swift */; };
+		37C990272BF7BE0C00010768 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C990262BF7BE0C00010768 /* Login.swift */; };
+		37C990292BF7BE0D00010768 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37C990282BF7BE0D00010768 /* Assets.xcassets */; };
+		37C9902C2BF7BE0D00010768 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37C9902B2BF7BE0D00010768 /* Preview Assets.xcassets */; };
+		37C990362BF7BE0D00010768 /* budjiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C990352BF7BE0D00010768 /* budjiTests.swift */; };
+		37C990402BF7BE0D00010768 /* budjiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C9903F2BF7BE0D00010768 /* budjiUITests.swift */; };
+		37C990422BF7BE0D00010768 /* budjiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C990412BF7BE0D00010768 /* budjiUITestsLaunchTests.swift */; };
+		37C990502BFBB5C900010768 /* CustomModifers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C9904F2BFBB5C900010768 /* CustomModifers.swift */; };
+		37C990522BFBBE5D00010768 /* BudjiTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C990512BFBBE5D00010768 /* BudjiTabView.swift */; };
+		37C990542BFBC73000010768 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C990532BFBC73000010768 /* HomePageView.swift */; };
+		37C990562BFBC74300010768 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C990552BFBC74300010768 /* AccountView.swift */; };
+		37C990592BFBCA5A00010768 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 37C990582BFBCA5A00010768 /* FirebaseAuth */; };
+		37C9905B2BFBCA5A00010768 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 37C9905A2BFBCA5A00010768 /* FirebaseFirestore */; };
+		37C9905E2BFBCA7500010768 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 37C9905D2BFBCA7500010768 /* GoogleSignIn */; };
+		37C990602BFBCA7500010768 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 37C9905F2BFBCA7500010768 /* GoogleSignInSwift */; };
+		37F40DF72C210D180092DA8B /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F40DF62C210D180092DA8B /* CalendarView.swift */; };
+		37F40DF92C212A770092DA8B /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F40DF82C212A770092DA8B /* Date+Ext.swift */; };
+		37F40DFB2C224BDB0092DA8B /* CalendarMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F40DFA2C224BDB0092DA8B /* CalendarMainView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37C990322BF7BE0D00010768 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37C990192BF7BE0C00010768 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37C990202BF7BE0C00010768;
+			remoteInfo = budji;
+		};
+		37C9903C2BF7BE0D00010768 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37C990192BF7BE0C00010768 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37C990202BF7BE0C00010768;
+			remoteInfo = budji;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37453F212C0923DA008C08F2 /* AnyCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyCategory.swift; sourceTree = "<group>"; };
+		37453F252C0E14AA008C08F2 /* expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = expense.swift; sourceTree = "<group>"; };
+		374696502C0779E40097342C /* NeedsGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedsGridView.swift; sourceTree = "<group>"; };
+		374696522C077CA40097342C /* CardViewTitles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewTitles.swift; sourceTree = "<group>"; };
+		37570EE52C0F83A100C36D6B /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
+		37811FC22C1134BC005BB5AE /* WantsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WantsViewModel.swift; sourceTree = "<group>"; };
+		37811FC42C115549005BB5AE /* SavingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsViewModel.swift; sourceTree = "<group>"; };
+		37811FC62C1155B5005BB5AE /* NeedsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedsViewModel.swift; sourceTree = "<group>"; };
+		37811FC82C128C52005BB5AE /* needsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = needsDetailView.swift; sourceTree = "<group>"; };
+		37811FCD2C128DAE005BB5AE /* wantsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wantsDetailView.swift; sourceTree = "<group>"; };
+		37811FCF2C128DDB005BB5AE /* savingsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = savingsDetailView.swift; sourceTree = "<group>"; };
+		37811FD12C153386005BB5AE /* ListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewCell.swift; sourceTree = "<group>"; };
+		37811FD32C17B0F4005BB5AE /* ListViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewCellModel.swift; sourceTree = "<group>"; };
+		37841CD42BFD0D8A0093BF3F /* userData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userData.swift; sourceTree = "<group>"; };
+		37841CD62BFD393F0093BF3F /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		37841CD82BFD39680093BF3F /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		37841CDC2BFD6E450093BF3F /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		37841CDE2BFEB9DE0093BF3F /* DailyBudget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyBudget.swift; sourceTree = "<group>"; };
+		37841CE02C02B0820093BF3F /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		37841CE22C02B6820093BF3F /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		37841CE62C02B6DD0093BF3F /* BudgetRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetRules.swift; sourceTree = "<group>"; };
+		37841CF02C02C5760093BF3F /* AddNewExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewExpense.swift; sourceTree = "<group>"; };
+		37841CF32C050CD20093BF3F /* WantsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WantsView.swift; sourceTree = "<group>"; };
+		37841CF62C050EC70093BF3F /* SavingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsView.swift; sourceTree = "<group>"; };
+		37841CF82C050EE30093BF3F /* NeedsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedsView.swift; sourceTree = "<group>"; };
+		37A4ADCD2BFBD11F008C388A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		37A4ADCF2BFBD135008C388A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		37A4ADD02BFBD1B4008C388A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		37A4ADD32BFBD54D008C388A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37A4ADD52BFBD7B9008C388A /* +View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+View.swift"; sourceTree = "<group>"; };
+		37A4ADD72BFBE27D008C388A /* FIrebaseAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIrebaseAuth.swift; sourceTree = "<group>"; };
+		37A4ADDA2BFCD928008C388A /* registerUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerUser.swift; sourceTree = "<group>"; };
+		37C990212BF7BE0C00010768 /* budji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = budji.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37C990242BF7BE0C00010768 /* budjiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = budjiApp.swift; sourceTree = "<group>"; };
+		37C990262BF7BE0C00010768 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		37C990282BF7BE0D00010768 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37C9902B2BF7BE0D00010768 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		37C990312BF7BE0D00010768 /* budjiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = budjiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37C990352BF7BE0D00010768 /* budjiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = budjiTests.swift; sourceTree = "<group>"; };
+		37C9903B2BF7BE0D00010768 /* budjiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = budjiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37C9903F2BF7BE0D00010768 /* budjiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = budjiUITests.swift; sourceTree = "<group>"; };
+		37C990412BF7BE0D00010768 /* budjiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = budjiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		37C9904F2BFBB5C900010768 /* CustomModifers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifers.swift; sourceTree = "<group>"; };
+		37C990512BFBBE5D00010768 /* BudjiTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudjiTabView.swift; sourceTree = "<group>"; };
+		37C990532BFBC73000010768 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		37C990552BFBC74300010768 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		37F40DF62C210D180092DA8B /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		37F40DF82C212A770092DA8B /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		37F40DFA2C224BDB0092DA8B /* CalendarMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarMainView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37C9901E2BF7BE0C00010768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C990592BFBCA5A00010768 /* FirebaseAuth in Frameworks */,
+				37C9905B2BFBCA5A00010768 /* FirebaseFirestore in Frameworks */,
+				37C9905E2BFBCA7500010768 /* GoogleSignIn in Frameworks */,
+				37C990602BFBCA7500010768 /* GoogleSignInSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C9902E2BF7BE0D00010768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C990382BF7BE0D00010768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3746964D2C0770F90097342C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				37453F212C0923DA008C08F2 /* AnyCategory.swift */,
+				37811FD12C153386005BB5AE /* ListViewCell.swift */,
+				37811FD32C17B0F4005BB5AE /* ListViewCellModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		37811FCA2C128D66005BB5AE /* Needs */ = {
+			isa = PBXGroup;
+			children = (
+				37811FC62C1155B5005BB5AE /* NeedsViewModel.swift */,
+				37841CF82C050EE30093BF3F /* NeedsView.swift */,
+				37811FC82C128C52005BB5AE /* needsDetailView.swift */,
+			);
+			path = Needs;
+			sourceTree = "<group>";
+		};
+		37811FCB2C128D77005BB5AE /* Wants */ = {
+			isa = PBXGroup;
+			children = (
+				37811FC22C1134BC005BB5AE /* WantsViewModel.swift */,
+				37841CF32C050CD20093BF3F /* WantsView.swift */,
+				37811FCD2C128DAE005BB5AE /* wantsDetailView.swift */,
+			);
+			path = Wants;
+			sourceTree = "<group>";
+		};
+		37811FCC2C128D90005BB5AE /* Savings */ = {
+			isa = PBXGroup;
+			children = (
+				37841CF62C050EC70093BF3F /* SavingsView.swift */,
+				37811FC42C115549005BB5AE /* SavingsViewModel.swift */,
+				37811FCF2C128DDB005BB5AE /* savingsDetailView.swift */,
+			);
+			path = Savings;
+			sourceTree = "<group>";
+		};
+		37841CF22C050C8D0093BF3F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				37811FCC2C128D90005BB5AE /* Savings */,
+				37811FCB2C128D77005BB5AE /* Wants */,
+				37811FCA2C128D66005BB5AE /* Needs */,
+				37841CF52C050EAE0093BF3F /* ExpenseView */,
+				37841CE02C02B0820093BF3F /* GraphView.swift */,
+				37A4ADD02BFBD1B4008C388A /* LoginViewModel.swift */,
+				37C990552BFBC74300010768 /* AccountView.swift */,
+				37C990532BFBC73000010768 /* HomePageView.swift */,
+				37C990512BFBBE5D00010768 /* BudjiTabView.swift */,
+				37C990262BF7BE0C00010768 /* Login.swift */,
+				37F40DF62C210D180092DA8B /* CalendarView.swift */,
+				37F40DFA2C224BDB0092DA8B /* CalendarMainView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		37841CF52C050EAE0093BF3F /* ExpenseView */ = {
+			isa = PBXGroup;
+			children = (
+				37841CF02C02C5760093BF3F /* AddNewExpense.swift */,
+				374696502C0779E40097342C /* NeedsGridView.swift */,
+				374696522C077CA40097342C /* CardViewTitles.swift */,
+				37453F252C0E14AA008C08F2 /* expense.swift */,
+			);
+			path = ExpenseView;
+			sourceTree = "<group>";
+		};
+		37A4ADD22BFBD4B0008C388A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				37C9904F2BFBB5C900010768 /* CustomModifers.swift */,
+				37A4ADD32BFBD54D008C388A /* AppDelegate.swift */,
+				37A4ADD52BFBD7B9008C388A /* +View.swift */,
+				37841CD42BFD0D8A0093BF3F /* userData.swift */,
+				37841CD62BFD393F0093BF3F /* user.swift */,
+				37841CD82BFD39680093BF3F /* AccountViewModel.swift */,
+				37841CDC2BFD6E450093BF3F /* ProgressBar.swift */,
+				37841CDE2BFEB9DE0093BF3F /* DailyBudget.swift */,
+				37841CE22C02B6820093BF3F /* File.swift */,
+				37841CE62C02B6DD0093BF3F /* BudgetRules.swift */,
+				37570EE52C0F83A100C36D6B /* XDismissButton.swift */,
+				37F40DF82C212A770092DA8B /* Date+Ext.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		37A4ADD92BFCD8FE008C388A /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				37A4ADD72BFBE27D008C388A /* FIrebaseAuth.swift */,
+				37A4ADDA2BFCD928008C388A /* registerUser.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		37C990182BF7BE0C00010768 = {
+			isa = PBXGroup;
+			children = (
+				37C990232BF7BE0C00010768 /* budji */,
+				37C990342BF7BE0D00010768 /* budjiTests */,
+				37C9903E2BF7BE0D00010768 /* budjiUITests */,
+				37C990222BF7BE0C00010768 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37C990222BF7BE0C00010768 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37C990212BF7BE0C00010768 /* budji.app */,
+				37C990312BF7BE0D00010768 /* budjiTests.xctest */,
+				37C9903B2BF7BE0D00010768 /* budjiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37C990232BF7BE0C00010768 /* budji */ = {
+			isa = PBXGroup;
+			children = (
+				37A4ADD22BFBD4B0008C388A /* Helper */,
+				3746964D2C0770F90097342C /* Model */,
+				37841CF22C050C8D0093BF3F /* Screens */,
+				37A4ADD92BFCD8FE008C388A /* Firebase */,
+				37A4ADCF2BFBD135008C388A /* Info.plist */,
+				37C990242BF7BE0C00010768 /* budjiApp.swift */,
+				37C990282BF7BE0D00010768 /* Assets.xcassets */,
+				37C9902A2BF7BE0D00010768 /* Preview Content */,
+				37A4ADCD2BFBD11F008C388A /* GoogleService-Info.plist */,
+			);
+			path = budji;
+			sourceTree = "<group>";
+		};
+		37C9902A2BF7BE0D00010768 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				37C9902B2BF7BE0D00010768 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		37C990342BF7BE0D00010768 /* budjiTests */ = {
+			isa = PBXGroup;
+			children = (
+				37C990352BF7BE0D00010768 /* budjiTests.swift */,
+			);
+			path = budjiTests;
+			sourceTree = "<group>";
+		};
+		37C9903E2BF7BE0D00010768 /* budjiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				37C9903F2BF7BE0D00010768 /* budjiUITests.swift */,
+				37C990412BF7BE0D00010768 /* budjiUITestsLaunchTests.swift */,
+			);
+			path = budjiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37C990202BF7BE0C00010768 /* budji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37C990452BF7BE0D00010768 /* Build configuration list for PBXNativeTarget "budji" */;
+			buildPhases = (
+				37C9901D2BF7BE0C00010768 /* Sources */,
+				37C9901E2BF7BE0C00010768 /* Frameworks */,
+				37C9901F2BF7BE0C00010768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = budji;
+			packageProductDependencies = (
+				37C990582BFBCA5A00010768 /* FirebaseAuth */,
+				37C9905A2BFBCA5A00010768 /* FirebaseFirestore */,
+				37C9905D2BFBCA7500010768 /* GoogleSignIn */,
+				37C9905F2BFBCA7500010768 /* GoogleSignInSwift */,
+			);
+			productName = budji;
+			productReference = 37C990212BF7BE0C00010768 /* budji.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37C990302BF7BE0D00010768 /* budjiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37C990482BF7BE0D00010768 /* Build configuration list for PBXNativeTarget "budjiTests" */;
+			buildPhases = (
+				37C9902D2BF7BE0D00010768 /* Sources */,
+				37C9902E2BF7BE0D00010768 /* Frameworks */,
+				37C9902F2BF7BE0D00010768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37C990332BF7BE0D00010768 /* PBXTargetDependency */,
+			);
+			name = budjiTests;
+			productName = budjiTests;
+			productReference = 37C990312BF7BE0D00010768 /* budjiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37C9903A2BF7BE0D00010768 /* budjiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37C9904B2BF7BE0D00010768 /* Build configuration list for PBXNativeTarget "budjiUITests" */;
+			buildPhases = (
+				37C990372BF7BE0D00010768 /* Sources */,
+				37C990382BF7BE0D00010768 /* Frameworks */,
+				37C990392BF7BE0D00010768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37C9903D2BF7BE0D00010768 /* PBXTargetDependency */,
+			);
+			name = budjiUITests;
+			productName = budjiUITests;
+			productReference = 37C9903B2BF7BE0D00010768 /* budjiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37C990192BF7BE0C00010768 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					37C990202BF7BE0C00010768 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					37C990302BF7BE0D00010768 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 37C990202BF7BE0C00010768;
+					};
+					37C9903A2BF7BE0D00010768 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 37C990202BF7BE0C00010768;
+					};
+				};
+			};
+			buildConfigurationList = 37C9901C2BF7BE0C00010768 /* Build configuration list for PBXProject "budji" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37C990182BF7BE0C00010768;
+			packageReferences = (
+				37C990572BFBCA5A00010768 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				37C9905C2BFBCA7500010768 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			productRefGroup = 37C990222BF7BE0C00010768 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37C990202BF7BE0C00010768 /* budji */,
+				37C990302BF7BE0D00010768 /* budjiTests */,
+				37C9903A2BF7BE0D00010768 /* budjiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37C9901F2BF7BE0C00010768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C9902C2BF7BE0D00010768 /* Preview Assets.xcassets in Resources */,
+				37C990292BF7BE0D00010768 /* Assets.xcassets in Resources */,
+				37A4ADCE2BFBD11F008C388A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C9902F2BF7BE0D00010768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C990392BF7BE0D00010768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37C9901D2BF7BE0C00010768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37841CD72BFD393F0093BF3F /* user.swift in Sources */,
+				37A4ADD42BFBD54D008C388A /* AppDelegate.swift in Sources */,
+				374696532C077CA40097342C /* CardViewTitles.swift in Sources */,
+				37811FC32C1134BC005BB5AE /* WantsViewModel.swift in Sources */,
+				374696512C0779E40097342C /* NeedsGridView.swift in Sources */,
+				37841CF12C02C5760093BF3F /* AddNewExpense.swift in Sources */,
+				37C990562BFBC74300010768 /* AccountView.swift in Sources */,
+				37841CF72C050EC70093BF3F /* SavingsView.swift in Sources */,
+				37841CF92C050EE30093BF3F /* NeedsView.swift in Sources */,
+				37F40DF92C212A770092DA8B /* Date+Ext.swift in Sources */,
+				37F40DF72C210D180092DA8B /* CalendarView.swift in Sources */,
+				37841CD52BFD0D8A0093BF3F /* userData.swift in Sources */,
+				37A4ADD62BFBD7B9008C388A /* +View.swift in Sources */,
+				37811FD02C128DDB005BB5AE /* savingsDetailView.swift in Sources */,
+				37C990272BF7BE0C00010768 /* Login.swift in Sources */,
+				37A4ADDB2BFCD928008C388A /* registerUser.swift in Sources */,
+				37811FC92C128C52005BB5AE /* needsDetailView.swift in Sources */,
+				37841CE32C02B6820093BF3F /* File.swift in Sources */,
+				37C990252BF7BE0C00010768 /* budjiApp.swift in Sources */,
+				37841CD92BFD39680093BF3F /* AccountViewModel.swift in Sources */,
+				37C990502BFBB5C900010768 /* CustomModifers.swift in Sources */,
+				37811FC72C1155B5005BB5AE /* NeedsViewModel.swift in Sources */,
+				37811FD22C153386005BB5AE /* ListViewCell.swift in Sources */,
+				37841CDF2BFEB9DE0093BF3F /* DailyBudget.swift in Sources */,
+				37F40DFB2C224BDB0092DA8B /* CalendarMainView.swift in Sources */,
+				37811FC52C115549005BB5AE /* SavingsViewModel.swift in Sources */,
+				37841CE72C02B6DD0093BF3F /* BudgetRules.swift in Sources */,
+				37C990522BFBBE5D00010768 /* BudjiTabView.swift in Sources */,
+				37453F262C0E14AA008C08F2 /* expense.swift in Sources */,
+				37453F222C0923DA008C08F2 /* AnyCategory.swift in Sources */,
+				37C990542BFBC73000010768 /* HomePageView.swift in Sources */,
+				37841CF42C050CD20093BF3F /* WantsView.swift in Sources */,
+				37811FCE2C128DAE005BB5AE /* wantsDetailView.swift in Sources */,
+				37841CE12C02B0820093BF3F /* GraphView.swift in Sources */,
+				37A4ADD82BFBE27D008C388A /* FIrebaseAuth.swift in Sources */,
+				37841CDD2BFD6E450093BF3F /* ProgressBar.swift in Sources */,
+				37A4ADD12BFBD1B4008C388A /* LoginViewModel.swift in Sources */,
+				37811FD42C17B0F4005BB5AE /* ListViewCellModel.swift in Sources */,
+				37570EE62C0F83A100C36D6B /* XDismissButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C9902D2BF7BE0D00010768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C990362BF7BE0D00010768 /* budjiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C990372BF7BE0D00010768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C990402BF7BE0D00010768 /* budjiUITests.swift in Sources */,
+				37C990422BF7BE0D00010768 /* budjiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37C990332BF7BE0D00010768 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37C990202BF7BE0C00010768 /* budji */;
+			targetProxy = 37C990322BF7BE0D00010768 /* PBXContainerItemProxy */;
+		};
+		37C9903D2BF7BE0D00010768 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37C990202BF7BE0C00010768 /* budji */;
+			targetProxy = 37C9903C2BF7BE0D00010768 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		37C990432BF7BE0D00010768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37C990442BF7BE0D00010768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37C990462BF7BE0D00010768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"budji/Preview Content\"";
+				DEVELOPMENT_TEAM = 87CQWGCKW5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = budji/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VillanuevaDesign.budji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37C990472BF7BE0D00010768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"budji/Preview Content\"";
+				DEVELOPMENT_TEAM = 87CQWGCKW5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = budji/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VillanuevaDesign.budji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		37C990492BF7BE0D00010768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 87CQWGCKW5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VillanuevaDesign.budjiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/budji.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/budji";
+			};
+			name = Debug;
+		};
+		37C9904A2BF7BE0D00010768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 87CQWGCKW5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VillanuevaDesign.budjiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/budji.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/budji";
+			};
+			name = Release;
+		};
+		37C9904C2BF7BE0D00010768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 87CQWGCKW5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VillanuevaDesign.budjiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = budji;
+			};
+			name = Debug;
+		};
+		37C9904D2BF7BE0D00010768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 87CQWGCKW5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VillanuevaDesign.budjiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = budji;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37C9901C2BF7BE0C00010768 /* Build configuration list for PBXProject "budji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37C990432BF7BE0D00010768 /* Debug */,
+				37C990442BF7BE0D00010768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37C990452BF7BE0D00010768 /* Build configuration list for PBXNativeTarget "budji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37C990462BF7BE0D00010768 /* Debug */,
+				37C990472BF7BE0D00010768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37C990482BF7BE0D00010768 /* Build configuration list for PBXNativeTarget "budjiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37C990492BF7BE0D00010768 /* Debug */,
+				37C9904A2BF7BE0D00010768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37C9904B2BF7BE0D00010768 /* Build configuration list for PBXNativeTarget "budjiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37C9904C2BF7BE0D00010768 /* Debug */,
+				37C9904D2BF7BE0D00010768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		37C990572BFBCA5A00010768 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.26.0;
+			};
+		};
+		37C9905C2BFBCA7500010768 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		37C990582BFBCA5A00010768 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37C990572BFBCA5A00010768 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		37C9905A2BFBCA5A00010768 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37C990572BFBCA5A00010768 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		37C9905D2BFBCA7500010768 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37C9905C2BFBCA7500010768 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		37C9905F2BFBCA7500010768 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37C9905C2BFBCA7500010768 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 37C990192BF7BE0C00010768 /* Project object */;
+}
